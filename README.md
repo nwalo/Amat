@@ -1,1 +1,2 @@
 # Amat
+AMATNow is a technology company that connects African restaurants, food stores, and grocery shops with their customers wherever they may be in Istanbul. We are an e-commerce platform on a mission to empower our users with the most competitive pricing as well as delivery in real-time. Our customers are top priority and through our products we work hard towards building and sustaining a long-lasting relationship with them.
