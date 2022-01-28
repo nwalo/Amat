@@ -171,12 +171,12 @@
   justify-content: space-between;
 }
 
-.row1 > div {
+.rw1{
   display: flex;
-  width: 50%;
-  margin-right: 40px;
-  align-items: center;
+  min-width: 190px !important;
+  margin-right: 10px;
 }
+
 /* footer styling */
 footer {
   background-color: #030d25;
@@ -300,6 +300,18 @@ form .newsletter-button {
     align-items: center;
     padding: 50px 30px;
   }
+  .home-ach-1 img {
+    width: 40px;
+    margin-right: 10px;
+}
+  .home-ach-1 .row1 h2{
+    font-size: 25px;
+}
+
+.rw1 {
+  margin-right: 0px;
+}
+
   .boxx {
     max-width: 100%;
     text-align: left;
@@ -334,12 +346,12 @@ form .newsletter-button {
     padding-right: 30px;
   }
 
-  .row1 > div {
+  /* .row1 > div {
     display: flex;
     width: 80%;
     margin-right: 40px;
     align-items: center;
-  }
+  } */
 
   /* .row1:first-child{
     width: 80%;
