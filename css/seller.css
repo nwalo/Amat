@@ -1,10 +1,9 @@
 .nav-brand {
   margin: 10px 5%;
-  /* width: 10px; */
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 nav {
@@ -47,7 +46,7 @@ nav {
     width: 50%;
   }
   .nav-brand {
-    margin: 10px 4%;
+    margin: 10px 3%;
   }
 
   .navbar-nav {
@@ -55,7 +54,7 @@ nav {
   }
 
   .navbar-toggler {
-    margin: 10px 2%;
+    margin: 10px 4%;
   }
 
   .mr-sm-5,
@@ -72,7 +71,7 @@ nav {
 
 #introduction {
   width: 100%;
-  background: url("../images/full.jpg");
+  background: url('../images/full.jpg');
   background-size: cover;
   background-position: bottom;
   background-blend-mode: multiply;
@@ -87,16 +86,17 @@ nav {
 }
 
 section {
-  padding: 10% 5%;
+  padding: 10% 6.5%;
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .btn {
   background-color: #e93821 !important;
   border: none !important;
+  outline: none;
   padding: 10px 40px !important;
   color: #ffffff;
 }
@@ -126,6 +126,10 @@ p {
 }
 
 @media (max-width: 768px) {
+  section {
+    padding: 10% 6%;
+  }
+
   .intro h1 {
     font-weight: 800;
     font-size: 40px;
@@ -137,12 +141,14 @@ p {
     font-size: 38px;
     line-height: 45px;
   }
+
   .head-txt p {
     font-size: 16px;
     line-height: 30px;
   }
 
   #introduction {
+    background-blend-mode: normal;
     height: 400px;
   }
 
@@ -300,12 +306,12 @@ p {
   }
 }
 
-/* Ben */
+/* Beneits */
 
 #benefit {
   background: #fffbfb;
   position: static;
-  padding: 2% 10%;
+  padding: 4% 5%;
 }
 
 h2 {
@@ -319,13 +325,17 @@ h3 {
 }
 
 @media (max-width: 768px) {
+  .col-md-12,
+  .col-lg-2 .col-lg-4 {
+    padding: 0 !important;
+  }
   h2 {
     font-weight: 800;
     font-size: 28px;
     line-height: 40px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
   }
 }
@@ -337,6 +347,7 @@ h3 {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 20px 0;
+  width: 90%;
 }
 
 .feat {
@@ -371,12 +382,21 @@ h3 {
 }
 
 @media (max-width: 768px) {
+  .my-flex {
+    width: 100%;
+  }
+
+  .feat {
+    flex-direction: column;
+  }
+
   .feat .rnd {
     margin-right: 10px;
   }
 
   .feat img {
     width: 60px;
+    margin-bottom: 10px;
   }
 }
 
@@ -384,14 +404,14 @@ h3 {
 
 #works {
   background-color: #fafafa;
-  padding: 2% 10%;
+  padding: 4% 5%;
 }
 
 .customers {
   display: flex;
   justify-content: space-between;
   padding: 40px 0;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -415,17 +435,16 @@ h3 {
 
 a {
   color: #e93821;
-  /* text-decoration: underline; */
 }
 
 #contact {
-  background: url("../images/ama-contact.jpg");
+  background: url('../images/ama-contact.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(3, 13, 37, 0.5);
   background-blend-mode: multiply;
-  padding: 5% 10%;
+  padding: 5% 6.5%;
   color: #ffffff;
   margin-bottom: 5%;
 }
@@ -444,6 +463,9 @@ a {
 }
 
 @media (max-width: 768px) {
+  #contact {
+    padding: 5% 6%;
+  }
   #contact h2 {
     font-size: 28px;
   }
@@ -456,7 +478,7 @@ a {
 .car-lg,
 .car-sm {
   background-color: #f4f5f7;
-  padding: 5% 8%;
+  padding: 5% 6.5%;
 }
 
 .review {
@@ -522,15 +544,10 @@ h6 {
   font-size: 30px;
 }
 
-.fa-check {
-  font-size: 0.7em;
-  color: #6fcf97;
-}
-
 .slibut {
-  width: 15px;
-  height: 15px;
-  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+  margin: 2px 5px;
   border-radius: 50px;
   background-color: #e93821;
   border: #e93821;
@@ -539,6 +556,7 @@ h6 {
 .carousel-indicators .active {
   width: 15px !important;
   height: 15px !important;
+  margin: 0 5px;
   background-color: #ffffff;
   border-radius: 50px;
   border: 2px solid #e93821;
@@ -549,7 +567,7 @@ h6 {
 }
 
 .mycard {
-  margin: 30px auto;
+  margin: 30px 20px;
 }
 
 .car-lg {
@@ -560,9 +578,23 @@ h6 {
   display: block;
 }
 
+.card-tit {
+  font-weight: 700;
+  font-size: 28px;
+}
+
 @media (max-width: 768px) {
   .car-lg {
     display: none;
+  }
+
+  .card-tit {
+    font-size: 18px !important;
+  }
+
+  .mycard {
+    width: 90%;
+    margin: 30px auto;
   }
 }
 
@@ -604,7 +636,50 @@ h6 {
   display: none;
 }
 
+.price-sec {
+  width: 80%;
+  margin: auto;
+}
+
+.price-sec .card-text {
+  display: flex;
+}
+
+.price-sec span {
+  margin-left: 10px;
+}
+
+.price-sec .fa-check {
+  margin-top: 7px;
+  font-size: 0.8em;
+  color: #6fcf97;
+}
+
+.price-title {
+  font-size: 20px;
+}
+
+.price-card .btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.small {
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
+  .price-sec {
+    width: 100%;
+  }
+
+  .price-sec .mycard {
+    width: 100%;
+  }
+  .price-sec .px-5 {
+    padding: 2em !important;
+  }
+
   .head-title {
     text-align: center;
   }
@@ -622,13 +697,4 @@ h6 {
   .full-hide {
     display: block;
   }
-}
-
-.pricing .btn {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.small {
-  font-size: 14px;
 }
