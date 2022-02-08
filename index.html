@@ -40,7 +40,7 @@
           <img src="./images/amat logo.png" alt="logo" />
         </div>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler collapsed"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -48,7 +48,9 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto mr-sm-5 nav-items-rt" id="rt">
@@ -72,8 +74,8 @@
                 Partner with us
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="seller.html">Become a seller</a>
-                <a class="dropdown-item" href="#">Warehousing</a>
+                <a class="dropdown-item" href="">Become a Rider</a>
+                <a class="dropdown-item" href="seller.html">Become a Seller</a>
               </div>
             </li>
             <li class="nav-item"><a class="nav-link" href="#">Contat Us</a></li>
@@ -162,60 +164,74 @@
     </div>
 
     <!-- Our service -->
-    <div class="home-service container">
+    <section id="service" class="">
       <h2>Our Services</h2>
       <p>We offer first class services to our customers.</p>
-      <div class="row">
-        <div class="col-md-3 service-card">
-          <div>
-            <img src="images/service-1.svg" alt="" />
+      <div class="row service">
+        <div class="col-md-12 col-lg-4">
+          <div class="card mycard">
+            <div class="card-body">
+              <div class="mb-4">
+                <img src="images/service-1.svg" alt="" />
+              </div>
+              <h3>Order Goods</h3>
+              <p>
+                Order goods from over 200+ stores and restaurants in Turkey.
+                Place multiple orders and get them delivered to your doorstep.
+              </p>
+              <a href="">
+                Learn More
+                <img src="images/arrow.svg" alt="" />
+              </a>
+            </div>
           </div>
-          <h3>Order Goods</h3>
-          <p>
-            Order goods from over 200+ stores and restaurants in Turkey. Place
-            multiple orders and get them delivered to your doorstep.
-          </p>
-          <a href="">
-            Learn More
-            <i class="fa fa-arrow-right"></i>
-          </a>
         </div>
-        <div class="col-md-3 service-card">
-          <div>
-            <img src="images/service-2.svg" alt="" />
+        <div class="col-md-12 col-lg-4">
+          <div class="card mycard">
+            <div class="card-body">
+              <div class="mb-4">
+                <img src="images/service-2.svg" alt="" />
+              </div>
+              <h3>Package Delivery</h3>
+              <p>
+                Send and receive parcels within Turkey. Our riders are readily
+                available and our rates are pocket friendly. All delivery start
+                from ₺20.
+              </p>
+              <a href="">
+                Learn More
+                <img src="images/arrow.svg" alt="" />
+              </a>
+            </div>
           </div>
-          <h3>Package Delivery</h3>
-          <p>
-            Send and receive parcels within Turkey. Our riders are readily
-            available and our rates are pocket friendly. All delivery start from
-            ₺20.
-          </p>
-          <a href="">
-            Learn More
-            <i class="fa fa-arrow-right"></i>
-          </a>
         </div>
-        <div class="col-md-3 mb-4 service-card">
-          <div>
-            <img src="images/service-3.svg" alt="" />
+        <div class="col-md-12 col-lg-4">
+          <div class="card mycard">
+            <div class="card-body">
+              <div class="mb-4">
+                <img src="images/service-3.svg" alt="" />
+              </div>
+              <h3>Request Anything</h3>
+              <p>
+                In need of something? Searched but couldn’t find it? Request
+                through us and we’ll do the searching for you.
+              </p>
+              <a href="">
+                Learn More
+                <img src="images/arrow.svg" alt="" />
+              </a>
+            </div>
           </div>
-          <h3>Request Anything</h3>
-          <p>
-            In need of something? Searched but couldn’t find it? Request through
-            us and we’ll do the searching for you.
-          </p>
-          <a href="">
-            Learn More
-            <i class="fa fa-arrow-right"></i>
-          </a>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Cta download section 1 -->
     <div class="container home-about home-cta-1 col-rev">
       <div>
-        <h2>Order Goods, Get Instant Delivery, Flexible Payment Methods!</h2>
+        <h2 class="ti">
+          Order Goods, Get Instant Delivery, Flexible Payment Methods!
+        </h2>
         <p>
           Your one-stop-shop for everything groceries and local foods shopping.
           Pay using bank transfer, credit cards, online banking or pay on
@@ -223,7 +239,7 @@
         </p>
         <ul>
           <li>
-            <img src="images/l1.svg" alt="" />
+            <img src="images/Frame 1500.svg " alt="" />
             <p>
               Order local food items, groceries, beauty and other essentials
               directly from the App.
@@ -231,14 +247,14 @@
           </li>
 
           <li>
-            <img src="images/l3.svg" alt="" />
+            <img src="images/Frame 1512.svg " alt="" />
             <p>
               Quickly send packages to anyone within turkey at affordable rates.
             </p>
           </li>
 
           <li>
-            <img src="images/l4.svg" alt="" />
+            <img src="images/Frame 1514.svg " alt="" />
             <p>
               Request for literally anything and AmatNow would do the searching
               for you.
@@ -273,7 +289,7 @@
             <img src="images/downloads-icon.svg" alt="" />
             <div>
               <h2>10,000</h2>
-              <p>App downloads</p>
+              <p>App Downloads</p>
             </div>
           </div>
           <div class="rw1">
@@ -320,7 +336,7 @@
         </p>
         <ul>
           <li>
-            <img src="images/l1.svg" alt="" />
+            <img src="images/Frame 1507.svg" alt="" />
             <p>
               Receive requests from restaurants and individuals around you in
               need of delivery service.
@@ -328,7 +344,7 @@
           </li>
 
           <li>
-            <img src="images/l3.svg" alt="" />
+            <img src="images/Frame 1512.svg " alt="" />
             <p>
               Earn extra bucks delivering packages within Turkey. Add to your
               multiple sources of income.
@@ -336,7 +352,7 @@
           </li>
 
           <li>
-            <img src="images/l4.svg" alt="" />
+            <img src="images/Frame 1508.svg " alt="" />
             <p>Exceed targets and get rewarded. Passion fuels dreams!</p>
           </li>
         </ul>
@@ -358,17 +374,17 @@
         </p>
         <ul>
           <li>
-            <img src="images/l1.svg" alt="" />
+            <img src="images/Frame 1509.svg" alt="" />
             <p>Receive, process and track customers orders in real time.</p>
           </li>
 
           <li>
-            <img src="images/l3.svg" alt="" />
+            <img src="images/Frame 1510.svg" alt="" />
             <p>Get feedbacks from customers, get 24/7 support from AmatNow.</p>
           </li>
 
           <li>
-            <img src="images/l4.svg" alt="" />
+            <img src="images/Frame 1511.svg" alt="" />
             <p>
               Get your books right, set inventories, guage progress and expand
               your store based on customer demands and reviews.
@@ -569,6 +585,20 @@
       </div>
     </section>
 
+    <section id="newsletter">
+      <div>
+        <h2 style="text-align: center;">Subscribe to Newsletter</h2>
+        <p>
+          Stay updated with promotions and discounts from AmatNow right into
+          your inbox.
+        </p>
+        <form action="">
+          <input type="email" placeholder="Your email address" />
+          <button class="btn newsbtn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
     <section id="contact">
       <div class="cont show">
         <h2 style="text-align: left;">Contact Us Today!</h2>
@@ -600,7 +630,7 @@
             <h5 class="text-white mb-3" class="links-header">Quick Links</h5>
             <ul class="list-unstyled text-muted">
               <li><a href="#" class="footer-links">Home</a></li>
-              <li><a href="#" class="footer-links">About</a></li>
+              <li><a href="#" class="footer-links">About Us</a></li>
               <li><a href="#" class="footer-links">Rider</a></li>
               <li><a href="#" class="footer-links">Seller</a></li>
             </ul>
@@ -642,7 +672,7 @@
                   id="button-addon2"
                   type="button"
                 >
-                  subscribe
+                  Subscribe
                 </button>
               </div>
             </form>
@@ -683,5 +713,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>
