@@ -66,6 +66,10 @@ nav {
   #navbarNav {
     padding: 0 10px;
   }
+
+  .mid-hide {
+    display: none;
+  }
 }
 
 /* INTRODUCTION */
