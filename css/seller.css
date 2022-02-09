@@ -80,6 +80,15 @@ nav {
     padding: 4% 6.5% !important;
   }
 
+  .mid-show .ze {
+    width: 30%;
+    margin: 0px auto;
+  }
+
+  .mid-show .ze img {
+    width: 90%;
+  }
+
   .mid-show .fe > div {
     margin-bottom: 30px;
     width: 65%;
@@ -565,21 +574,21 @@ h6 {
 }
 
 .slibut {
-  width: 10px;
-  height: 10px;
-  margin: 2px 5px;
-  border-radius: 50px;
-  background-color: #e93821;
-  border: #e93821;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 2px 5px !important;
+  border-radius: 50px !important;
+  background-color: #e93821 !important;
+  border: #e93821 !important;
 }
 
 .carousel-indicators .active {
   width: 15px !important;
   height: 15px !important;
-  margin: 0 5px;
-  background-color: #ffffff;
-  border-radius: 50px;
-  border: 2px solid #e93821;
+  margin: 0 5px !important;
+  background-color: #ffffff !important;
+  border-radius: 50px !important;
+  border: 2px solid #e93821 !important;
 }
 
 .carousel-item {
@@ -625,6 +634,15 @@ h6 {
 @media (max-width: 768px) {
   .car-sm {
     display: block;
+  }
+
+  .mid-show .carousel-indicators .active {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 5px !important;
+    background-color: #ffffff !important;
+    border-radius: 50px !important;
+    border: 2px solid #e93821 !important;
   }
 }
 
@@ -766,6 +784,15 @@ input {
   .mid-show .fe > div {
     margin-bottom: 30px;
     width: 90%;
+  }
+
+  .mid-show .ze {
+    width: 40%;
+    margin: 0px auto;
+  }
+
+  .mid-show .ze img {
+    width: 100%;
   }
 
   .mob-hide {
