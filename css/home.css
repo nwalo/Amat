@@ -70,6 +70,24 @@
   color: #e93821;
 }
 
+.sect {
+  padding: 5% 6.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sect > div {
+  width: 47%;
+}
+
+.sect div img {
+  width: 100%;
+}
+
+.sect div.about-us {
+  padding: 100px 0;
+}
+
 .lhs {
   width: 20%;
   position: relative;
@@ -202,13 +220,13 @@
 }
 
 #video {
-  /* width: ; */
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
 #video iframe {
   width: 100%;
+  height: 500px;
   margin: 0 auto;
 }
 
@@ -347,6 +365,12 @@ form .newsletter-button {
   padding: 5% 6.5% 0;
 }
 
+@media screen and (max-width: 1000px) {
+  #video iframe {
+    height: 400px;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .home-hero {
     background: url('../images/homehero.png') !important;
@@ -463,6 +487,23 @@ form .newsletter-button {
     flex-direction: column-reverse;
     background-color: #fff;
     padding: 0px;
+  }
+
+  #video iframe {
+    height: 250px;
+  }
+
+  .sect {
+    padding: 5% 6%;
+  }
+
+  .sect > div {
+    width: 100%;
+    padding: 4% 0 !important;
+  }
+
+  .sect div.about-us {
+    padding: 10px 0;
   }
 
   .ww {
