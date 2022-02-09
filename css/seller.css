@@ -41,6 +41,10 @@ nav {
   max-width: 50%;
 }
 
+.mid-show {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .intro-img {
     max-width: 70% !important;
@@ -69,6 +73,16 @@ nav {
 
   .mid-hide {
     display: none;
+  }
+
+  .mid-show {
+    display: block;
+    padding: 4% 6.5% !important;
+  }
+
+  .mid-show .fe > div {
+    margin-bottom: 30px;
+    width: 65%;
   }
 }
 
@@ -747,6 +761,11 @@ input {
     font-weight: 800;
     font-size: 46px;
     line-height: 54px;
+  }
+
+  .mid-show .fe > div {
+    margin-bottom: 30px;
+    width: 90%;
   }
 
   .mob-hide {
